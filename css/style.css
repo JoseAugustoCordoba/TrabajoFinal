@@ -1,0 +1,29 @@
+body {
+  background: url("../img/fondo10.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+.bienvenida {
+  background: #f2f2f2;
+  margin-top: 30px;
+  border-radius: 20px;
+  padding: 10px;
+  opacity: 0.7;
+}
+.logo {
+  width: 150px;
+  height: 150px;
+
+  margin-top: 1cm;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background-color: rgb(14, 55, 55);
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
