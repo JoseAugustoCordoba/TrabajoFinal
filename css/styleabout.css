@@ -1,0 +1,53 @@
+body {
+  height: 100%;
+  font-family: sans-serif;
+  background-image: url(../imagenes/FondoAbout.jpg);
+  background-size: cover;
+}
+.nav {
+  color: white;
+  background-color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.container {
+  zoom: 150%;
+  width: 500px;
+  height: 800px;
+  padding: 60px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.container h1 {
+  color: #000000;
+  font-weight: 900;
+  text-shadow: 0 0 5px #1cdfbe, 0 0 30px #1ca9c2, 0 0 50px #42c9eb,
+    0 0 75px #44bde2;
+}
+.container div dl {
+  color: #ffffff;
+  font-weight: 2000;
+  text-shadow: 0 0 5px #1cdfbe, 0 0 30px #1ca9c2, 0 0 50px #42c9eb,
+    0 0 75px #44bde2;
+}
+footer {
+  align-items: flex-end;
+  align-content: flex-end;
+  background: #1b2a4e;
+  height: 0.5cm;
+  min-height: 80px;
+}
+footer p {
+  color: #f3f3f3;
+  text-align: center;
+}
