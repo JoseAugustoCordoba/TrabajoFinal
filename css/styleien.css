@@ -1,23 +1,6 @@
-
-#local {
-    margin-top:50px;
-    background-color: #f3f3f3;
-    display:flex;
-    justify-content: center; 
-    padding-bottom: 300px; 
+body {
+  background: blue;
 }
-
-.mapa {
-    background: url(../img/mapa.jpg);
-    width:100%;
-    height:500px;
+section {
+  background: rgb(0, 183, 255);
 }
-
-
-.wrapper-local {
-    width:50%;
-    margin-left:100px;
-    padding-top:150px;
-}
-
-
